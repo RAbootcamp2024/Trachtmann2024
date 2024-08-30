@@ -6,7 +6,7 @@ install.packages("pacman")
 pacman::p_load("haven", "tidyverse")
 
 #データの読み込み
-df_survey1 <- read_dta("data/survey1_clean.dta")
+df_survey1 <- read_dta("raw_data/survey1_clean.dta")
 
 #通知頻度のグループ分け
 summary(df_survey1$dailynotif_selfreport)

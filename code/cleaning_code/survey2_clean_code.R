@@ -6,7 +6,7 @@ install.packages("pacman")
 pacman::p_load("haven", "tidyverse")
 
 #データの読み込み
-df_survey2 <- read_dta("data/survey2_clean.dta")
+df_survey2 <- read_dta("raw_data/survey2_clean.dta")
 
 
 #新しい列（一週間の期待値）
